@@ -110,7 +110,6 @@ a:link {
 #page-body div#side-panel div#buildQueue:hover,
 #page-body div#side-panel div#executors:hover {
   border: 0px;
-  border-top: 1px solid #ccc;
 }
 #page-body div#side-panel div#buildHistory div.row,
 #page-body div#side-panel div#buildQueue div.row,
