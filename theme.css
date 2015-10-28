@@ -137,3 +137,11 @@ a:link {
 #page-body div#side-panel div#buildHistory:before {
   content: "History";
 }
+#page-body #main-panel {
+  padding: 20px;
+}
+#page-body #main-panel h1 {
+  font-size: 24px;
+  font-weight: normal;
+  height: 30px;
+}
