@@ -1,3 +1,6 @@
+a {
+  color: #3572b0;
+}
 #page-head #header {
   background: #205081;
 }
@@ -39,14 +42,18 @@
   font-weight: 700;
   line-height: 1.66666666666667;
   text-transform: uppercase;
+  content: "Actions";
 }
 #page-body div#side-panel div#tasks div.task {
   padding: 7px 26px 7px 15px;
+  margin: 0px;
 }
 #page-body div#side-panel div#tasks div.task:hover {
   background: #e6e6e6;
 }
 #page-body div#side-panel div#tasks div.task a.task-icon-link img {
+  height: 20px !important;
+  width: 20px !important;
   filter: gray;
   /* IE6-9 */
   filter: grayscale(1);
