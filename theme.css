@@ -138,6 +138,8 @@ a:link {
   content: "History";
 }
 #page-body #main-panel {
+  margin: 0px;
+  float: left;
   padding: 20px;
 }
 #page-body #main-panel h1 {
