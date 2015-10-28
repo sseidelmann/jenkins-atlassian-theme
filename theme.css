@@ -7,7 +7,17 @@ a:link {
 #page-head #header {
   background: #205081;
 }
-#page-head #header div.logo {
+#page-head #header div.logo a {
+  width: 80px;
+  /* background-size: 100px 50px; */
+  height: 31px;
+  display: block;
+  background: url("http://www.wfp2.com/typo3conf/ext/wfp2_base/Resources/Public/Images/logo.png");
+  background-size: 80px 31px;
+  background-repeat: no-repeat;
+  top: 6px;
+}
+#page-head #header div.logo a img {
   display: none;
 }
 #page-head #header div.searchbox {
@@ -38,6 +48,7 @@ a:link {
 #page-body div#side-panel {
   background: #f5f5f5;
   padding: 0px;
+  border-right: 1px solid #ccc;
 }
 #page-body div#side-panel div#tasks {
   margin: 20px 0px 0px 0px;
