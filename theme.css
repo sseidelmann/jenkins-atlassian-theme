@@ -84,6 +84,9 @@ a:link {
 #page-body div#side-panel div#buildQueue:hover {
   border: 0px;
 }
+#page-body div#side-panel div#buildQueue div.row {
+  padding: 7px 26px 7px 15px;
+}
 #page-body div#side-panel div#executors {
   border-top: 1px solid #ccc;
   margin-top: 5px;
@@ -101,4 +104,7 @@ a:link {
 }
 #page-body div#side-panel div#executors:hover {
   border: 0px;
+}
+#page-body div#side-panel div#executors div.row {
+  padding: 7px 26px 7px 15px;
 }
