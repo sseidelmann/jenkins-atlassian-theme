@@ -1,5 +1,8 @@
-a {
+a,
+a:visited,
+a:link {
   color: #3572b0;
+  text-decoration: none;
 }
 #page-head #header {
   background: #205081;
@@ -77,4 +80,25 @@ a {
   margin: 5px 15px 0px 15px;
   padding: 10px 10px 4px 0px;
   text-transform: uppercase;
+}
+#page-body div#side-panel div#buildQueue:hover {
+  border: 0px;
+}
+#page-body div#side-panel div#executors {
+  border-top: 1px solid #ccc;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+#page-body div#side-panel div#executors:before {
+  color: #707070;
+  font-size: 12px;
+  font-weight: 700;
+  content: "Build-Prozessor-Status";
+  line-height: 20px;
+  margin: 5px 15px 0px 15px;
+  padding: 10px 10px 4px 0px;
+  text-transform: uppercase;
+}
+#page-body div#side-panel div#executors:hover {
+  border: 0px;
 }
