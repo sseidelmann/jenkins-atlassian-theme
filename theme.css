@@ -80,53 +80,49 @@ a:link {
   -webkit-filter: grayscale(1);
   /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-#page-body div#side-panel div#buildQueue {
-  border-top: 1px solid #ccc;
-  margin-top: 5px;
-  padding-top: 5px;
+#page-body div#side-panel div#tasks div.task a.task-link b {
+  font-weight: normal;
 }
-#page-body div#side-panel div#buildQueue:before {
-  color: #707070;
-  font-size: 12px;
-  font-weight: 700;
-  content: "Build Queue";
-  line-height: 20px;
-  margin: 5px 15px 0px 15px;
-  padding: 10px 10px 4px 0px;
-  text-transform: uppercase;
-}
-#page-body div#side-panel div#buildQueue:hover {
-  border: 0px;
-  border-top: 1px solid #ccc;
-}
-#page-body div#side-panel div#buildQueue div.row {
-  padding: 7px 26px 7px 15px;
-}
-#page-body div#side-panel div#buildQueue div.row .pane-header {
-  display: none;
-}
+#page-body div#side-panel div#buildHistory,
+#page-body div#side-panel div#buildQueue,
 #page-body div#side-panel div#executors {
   border-top: 1px solid #ccc;
   margin-top: 5px;
   padding-top: 5px;
 }
+#page-body div#side-panel div#buildHistory:before,
+#page-body div#side-panel div#buildQueue:before,
 #page-body div#side-panel div#executors:before {
   color: #707070;
   font-size: 12px;
   font-weight: 700;
-  content: "Build-Prozessor-Status";
   line-height: 20px;
   margin: 5px 15px 0px 15px;
   padding: 10px 10px 4px 0px;
   text-transform: uppercase;
 }
+#page-body div#side-panel div#buildHistory:hover,
+#page-body div#side-panel div#buildQueue:hover,
 #page-body div#side-panel div#executors:hover {
   border: 0px;
   border-top: 1px solid #ccc;
 }
+#page-body div#side-panel div#buildHistory div.row,
+#page-body div#side-panel div#buildQueue div.row,
 #page-body div#side-panel div#executors div.row {
   padding: 7px 26px 7px 15px;
 }
+#page-body div#side-panel div#buildHistory div.row .pane-header,
+#page-body div#side-panel div#buildQueue div.row .pane-header,
 #page-body div#side-panel div#executors div.row .pane-header {
   display: none;
+}
+#page-body div#side-panel div#buildQueue:before {
+  content: "Build Queue";
+}
+#page-body div#side-panel div#executors:before {
+  content: "Build-Prozessor-Status";
+}
+#page-body div#side-panel div#buildHistory:before {
+  content: "History";
 }
