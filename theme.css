@@ -39,6 +39,9 @@ a:link {
   background: #f5f5f5;
   padding: 0px;
 }
+#page-body div#side-panel div#tasks {
+  margin: 20px 0px 0px 0px;
+}
 #page-body div#side-panel div#tasks:before {
   color: #707070;
   font-size: 12px;
@@ -88,6 +91,9 @@ a:link {
 #page-body div#side-panel div#buildQueue div.row {
   padding: 7px 26px 7px 15px;
 }
+#page-body div#side-panel div#buildQueue div.row .pane-header {
+  display: none;
+}
 #page-body div#side-panel div#executors {
   border-top: 1px solid #ccc;
   margin-top: 5px;
@@ -109,4 +115,7 @@ a:link {
 }
 #page-body div#side-panel div#executors div.row {
   padding: 7px 26px 7px 15px;
+}
+#page-body div#side-panel div#executors div.row .pane-header {
+  display: none;
 }
