@@ -6,6 +6,10 @@ a, a:visited, a:link {
     text-decoration: none;
 }
 
+html, body {
+    height: 100%;
+}
+
 #page-head {
     #header {
         background: @primary-color;
@@ -66,7 +70,11 @@ a, a:visited, a:link {
 }
 
 #page-body {
+    min-height: 100%;
+    height: 100%;
+
     div#side-panel {
+        min-height: 100%;
         background: #f5f5f5;
         padding: 0px;
         border-right: 1px solid #ccc;
@@ -212,5 +220,7 @@ a, a:visited, a:link {
 footer {
     border: 0px;
     background: #fff;
+    bottom: -40px;
+
 }
 
